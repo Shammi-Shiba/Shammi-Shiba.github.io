@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mark.css" />
+    <!-- bootstrap 05 -->
+    <!-- <link rel="stylesheet" href="boot/bootstrap.min.css" /> -->
+    <!-- Animate -->
+    <!-- <link rel="stylesheet" href="plugins/css/animate.css" /> -->
+    <!-- AOS -->
+    <!-- <link rel="stylesheet" href="AOS/aos-234.css" /> -->
+    <!-- VenoBox CSS -->
+    <!-- <link rel="stylesheet" href="venobox/venobox.css" /> -->
+    <title>Navigation Bar in Bootstrap 5</title>
+  </head>
+  <body>
+    <!------------------------------------------ Navbar --------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Shammi</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my-skills">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education-me">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#publication-me">Publication</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects-me">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact</a>
+            </li>
+          </ul>
+          <!-- <a href="#" class="btn btn-brand ms-lg-3">Start Free Trial</a> -->
+        </div>
+      </div>
+    </nav>
+    <!-- --------------------------Home section -------------- -->
+    <section
+      class="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+      id="about"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h3>Hi there,</h3>
+            <h1>I am <span class="text-warning">Shammi Akhter Shiba</span></h1>
+            <p class="lead my-4">
+              Here, I am Gonna tell you about me, all about my academic
+              backgrounds, some of my small achievements, some of my projects
+              and even more. <br />So Stay Tuned!
+            </p>
+            <button class="btn btn-primary btn-lg">Hire Me</button>
+          </div>
+          <img
+            src="images/home-removebg-preview.png"
+            alt=""
+            class="img-fluid w-50 d-none d-sm-block"
+          />
+        </div>
+      </div>
+      <!-- <div class="bg-image"></div> -->
+    </section>
+    <!-- -------------------------End of Home Section-------------- -->
+    <!-- -------------------------Start of About-me Section------------ -->
+    <section class="about-me bg-light section-padding about-area" id="about-me">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="section-title text-center m-0">
+              <h2>ABOUT ME</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur elit. Blanditiis, velit
+                libero quo nihil, ducimus illo amet necessitatibus neque sequi
+                maxime esse, qui corporis possimus! Quis?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6">
+            <div class="about-img about-bg">
+              <img src="images/about-me-removebg.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content">
+              <h2>Hello, I am <span>Shammi</span></h2>
+              <h4>Frontend Developer and Engineer</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti corporis, harum inventore blanditiis animi architecto
+                consectetur officia ipsa aspernatur quibusdam maiores temporibus
+                labore dolore sequi nostrum soluta dignissimos ut
+                necessitatibus.
+              </p>
+            </div>
+            <div class="icons-container">
+              <img src="images/details-icon-photoshop.png" alt="alternative" />
+              <img
+                src="images/details-icon-illustrator.png"
+                alt="alternative"
+              />
+              <img src="images/details-icon-html.png" alt="alternative" />
+              <img src="images/details-icon-css.png" alt="alternative" />
+              <img src="images/details-icon-bootstrap.png" alt="alternative" />
+              <img src="images/details-icon-javascript.png" alt="alternative" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------End of About-me Section------------ -->
+
+    <!-- -----------------------Start of Education Section------------------ -->
+    <section
+      class="education-me education-section text-white"
+      id="education-me"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center text-center">
+          <div class="col-md-12">
+            <div class="education-title">
+              <h2>Education</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="education-details">
+              <div
+                class="mh-education-item dark-bg wow fadeInUp"
+                data-wow-duration="0.8s"
+                data-wow-delay="0.4s"
+              >
+                <h4>Computer science and Engineering</h4>
+                <div class="edu-year">Jan 2017 - June 2021</div>
+                <h5>
+                  BRAC University (BRACU)
+                  <span><i>(Dhaka, Bangladesh)</i></span>
+                </h5>
+                <ul>
+                  B.Sc. in Computer Science and Engineering. CGPA: 3.81/4
+                </ul>
+                <ul>
+                  Main coursework: Data Structures, Design and analysis of
+                  Algorithms, Computer Architecture, Artificial Intelligence,
+                  Database Systems, Operating Systems, Software Engineering.
+                </ul>
+              </div>
+              <div class="mh-education-item dark-bg wow fadeInUp">
+                <h4>HSC</h4>
+                <div class="edu-year">Jan 2014 – Dec 2016</div>
+                <h5>
+                  Feni Girl's Cadet College
+                  <span><i>(Feni, Bangladesh)</i></span>
+                </h5>
+                <ul>
+                  Group – science | Board - Cumilla.
+                </ul>
+                <ul>
+                  GPA : 5.00
+                </ul>
+              </div>
+              <div class="mh-education-item dark-bg wow fadeInUp">
+                <h4>SSC</h4>
+                <div class="edu-year">Jan 2012 – Dec 2014</div>
+                <h5>
+                  Feni Girl's Cadet College
+                  <span><i>(Feni, Bangladesh)</i></span>
+                </h5>
+                <ul>
+                  Group – science | Board - Cumilla.
+                </ul>
+                <ul>
+                  GPA : 5.00
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------End of Education Section------------ -->
+    <!-- -------------------------Start of My-skills Section------------ -->
+    <section class="bg-light skill-padding text-center" id="my-skills">
+      <div class="container">
+        <div class="row p-3">
+          <div class="skill-title">
+            <h2>MY SKILLS</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-skillbar">
+              <div class="single-skill">
+                <div class="skillbar" data-percent="100%">
+                  <div class="skillbar-title">
+                    <span>HTML5</span>
+                  </div>
+                  <div class="skillbar-bar" style="width: 100%"></div>
+                  <div class="skill-bar-percent">100%</div>
+                </div>
+              </div>
+              <div class="single-skill">
+                <div class="skillbar" data-percent="90%">
+                  <div class="skillbar-title">
+                    <span>CSS3</span>
+                  </div>
+                  <div class="skillbar-bar" style="width: 90%"></div>
+                  <div class="skill-bar-percent">90%</div>
+                </div>
+              </div>
+              <div class="single-skill">
+                <div class="skillbar" data-percent="70%">
+                  <div class="skillbar-title">
+                    <span>JAVA</span>
+                  </div>
+                  <div class="skillbar-bar" style="width: 70%"></div>
+                  <div class="skill-bar-percent">70%</div>
+                </div>
+              </div>
+              <div class="single-skill">
+                <div class="skillbar" data-percent="90%">
+                  <div class="skillbar-title">
+                    <span>JAVASCRIPT</span>
+                  </div>
+                  <div class="skillbar-bar" style="width: 90%"></div>
+                  <div class="skill-bar-percent">90%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-content">
+              <div class="single-skill">
+                <div class="skillbar" data-percent="60%">
+                  <div class="skillbar-title">
+                    <span>REACT</span>
+                  </div>
+                  <div class="skillbar-bar" style="width: 60%"></div>
+                  <div class="skill-bar-percent">60%</div>
+                </div>
+              </div>
+              <div class="single-skill">
+                <div class="skillbar" data-percent="75%">
+                  <div class="skillbar-title">
+                    <span>NODE</span>
+                  </div>
+                  <div class="skillbar-bar" style="width: 75%"></div>
+                  <div class="skill-bar-percent">75%</div>
+                </div>
+              </div>
+              <div class="single-skill">
+                <div class="skillbar" data-percent="80%">
+                  <div class="skillbar-title">
+                    <span>PYTHON</span>
+                  </div>
+                  <div class="skillbar-bar" style="width: 80%"></div>
+                  <div class="skill-bar-percent">80%</div>
+                </div>
+              </div>
+              <div class="single-skill">
+                <div class="skillbar" data-percent="85%">
+                  <div class="skillbar-title">
+                    <span>TENSORFLOW</span>
+                  </div>
+                  <div class="skillbar-bar" style="width: 85%"></div>
+                  <div class="skill-bar-percent">85%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------End of My-Skills Section------------ -->
+    <!-- ---------------------------------Start of Publication Section----------------- -->
+    <section
+      class="education-me education-section text-white"
+      id="publication-me"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center text-center">
+          <div class="col-md-12">
+            <div class="education-title">
+              <h2>Publication</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="education-details">
+              <div
+                class="mh-education-item dark-bg wow fadeInUp"
+                data-wow-duration="0.8s"
+                data-wow-delay="0.4s"
+              >
+                <h4>Conference</h4>
+                <div class="edu-year">October 2021</div>
+                <h5>
+                  Bioengineering and Biomedical Signal and Image Processing
+                  (BIOMESIP)
+                  <span><i>(published on)</i></span>
+                </h5>
+                <!-- <ul>
+                  B.Sc. in Computer Science and Engineering. CGPA: 3.81/4
+                </ul> -->
+                <ul>
+                  CoroPy: A Deep Learning Based Comparison Between X-Ray and CT
+                  Scan Images in Covid-19 Detection and Classification
+                </ul>
+                <ul>
+                  Author: Rahman M.J., Niloy, A.H., Shiba, S.A., Fahim,
+                  S.M.F.A., Faria, F.N., Hussain, E., Parvez, M.D. (2021)
+                </ul>
+                <ul>
+                  Coronavirus 2019 (in short, Covid-19), was first found in the
+                  Wuhan province of China in December 2019 and has been declared
+                  a global pandemic by WHO in March 2020.So, we performed a
+                  comparative analysis between x-ray and CT san images.
+                  Therefore, has insisted us to perform a comparative analysis
+                  between X-ray and CT scan images. Thus we came up with a novel
+                  CNN model named CoroPy which works for both the image types
+                  and can detect normal, Covid-19 and viral pneumonia with great
+                  accuracy and shows that X-ray images have overall better
+                  performance.
+                </ul>
+                <ul>
+                  Link:
+                  <a
+                    href="http://link.springer.com/chapter/10.1007/978-3-030-88163-4_34"
+                    target="_blank"
+                    >https://link.springer.com/chapter/10.1007/978-3-030-88163-4_34</a
+                  >
+                </ul>
+              </div>
+              <!-- <div class="mh-education-item dark-bg wow fadeInUp">
+                <h4>HSC</h4>
+                <div class="edu-year">Jan 2014 – Dec 2016</div>
+                <h5>
+                  Feni Girl's Cadet College
+                  <span><i>(Feni, Bangladesh)</i></span>
+                </h5>
+                <ul>
+                  Group – science | Board - Cumilla.
+                </ul>
+                <ul>
+                  GPA : 5.00
+                </ul>
+              </div> -->
+              <!-- <div class="mh-education-item dark-bg wow fadeInUp">
+                <h4>SSC</h4>
+                <div class="edu-year">Jan 2012 – Dec 2014</div>
+                <h5>
+                  Feni Girl's Cadet College
+                  <span><i>(Feni, Bangladesh)</i></span>
+                </h5>
+                <ul>
+                  Group – science | Board - Cumilla.
+                </ul>
+                <ul>
+                  GPA : 5.00
+                </ul>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------End of Publication Section------------------------>
+    <!-- ------------------------------------------------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <!-- Bootstrap5 JS -->
+    <script src="boot/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="jquery-3.3.1.min.js"></script>
+    <!-- WOW -->
+    <script src="plugins/js/wow.min.js"></script>
+    <!-- AOS -->
+    <script src="AOS/aos-234.js"></script>
+    <!-- VenoBox JS-->
+    <script src="venobox/venobox.min.js"></script>
+  </body>
+</html>
